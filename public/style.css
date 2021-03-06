@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 100vh;
+    background: url(./img/bgplantes.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+    overflow: hidden;
+}
+h1{
+    color: black;
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-weight: 9000;
+    background-color: #ffffff;
+}
+.nav{
+    line-height: 250px;
+}
+.nav ul{
+    color: white;
+    width:  fit-content;
+    margin: 0 auto;
+    padding: 0;
+}
+.nav ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 35px;
+    font-weight: 900;
+    margin: 0 25px;
+    text-align: center;
+    cursor: pointer;
+}
+.social{
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 45%;
+
+}
+.social ul li{
+    list-style: none;
+    margin-bottom:  25px;
+    font-size: 30px
+
+}
+
+
+
+
+
+
+
+/* transition du début */
+.gauche{
+     position: absolute;
+     width:50%;
+     height: 100vh;
+     top:0;
+     left:0;
+     background: url(./img/plantes2.jpeg) no-repeat;
+     background-size: cover;
+
+}
+.gauche h2{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    letter-spacing: 20px;
+    background-color: darkolivegreen;
+    position: absolute;
+    font-size: 60px;
+    color: #ffffff
+}
+.droite{
+    position: absolute;
+    width:50%;
+    height: 100vh;
+    top:0;
+    right:0;
+    background: url(./img/img.jpeg) no-repeat;
+    background-size: cover;
+
+}
+.droite h2{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    letter-spacing: 20px;
+    background-color: darkolivegreen;
+    position: absolute;
+    font-size: 60px;
+    color: #ffffff
+}
